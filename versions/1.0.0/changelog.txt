@@ -2,15 +2,30 @@ Otherworld Reborn 1.0.0
 First release of the community-maintained fork of Otherworld (originally by MuonR / Luna Pixel Studios), maintained by MrSuricate. Minecraft 1.20.1, Forge 47.4.20.
 
 Removed
-- Luna world-sharing mod (not needed for this fork).
+- Luna world-sharing mod, ucrashedlol and BHMenu (not needed for this fork).
 - Distraction Free Recipes (client-side only, incompatible with JEI 15.74).
+- Luna Pixel Studios branding and support links, replaced by this project's GitHub page.
 
-Updated (31 mods)
-- Libraries and tools: CorgiLib, CraterLib, CreativeCore, Kiwi, Fzzy Config, GeckoLib, FTB Library, FTB Quests, Polymorph, Jade, Jade Addons, Waystones, KleeSlabs, Connectivity.
-- Performance and fixes: ModernFix, Neruina, Crash Assistant, Sawmill.
-- Content: Born in Chaos, Golem Overhaul, Horseman, Mowzie's Cataclysm, Ender's Delight, Better Combat Particle, Tweaks addon for MineColonies, JadeColonies, TACT, InControl, Structure Essentials, Simple RPC.
+Updated (over 60 mods)
+- MineColonies: MineColonies 1.1.1308, Structurize, Domum Ornamentum, Stylecolonies, MineColonies Compatibility 2.143, MineColonies Tweaks 2.107, Byzantine Styles Pack, JadeColonies.
+- Sophisticated: Core 1.5.26, Backpacks 3.26.19, Storage 1.5.15 and both Create integrations.
+- Farmer's Delight 1.3.4, Miner's Delight, My Nether's Delight, Dungeon's Delight, Ender's Delight, Create: Central Kitchen.
+- Create addons: Enchantment Industry 1.4.1, Alex's Caves Compat, Create Better FPS.
+- Magic: FamiliarsLib 1.9, GTBC SpellLib/API 2.2.0, Magic Circles 1.2.2.
+- Libraries: Cupboard 4.2, Chunk Sending 4.1, Collective, Puzzles Lib, CorgiLib, CraterLib, CreativeCore, Kiwi, Fzzy Config, GeckoLib, FTB Library, FTB Quests, Polymorph, Jade, Jade Addons, Waystones, KleeSlabs, Connectivity.
 - JEI 15.20 -> 15.74 (required by Polymorph 0.49.11), with the new MezzConfig dependency.
+- JourneyMap 5.10 -> 6.0.7 and JourneyMap Integration 0.15.
+- Performance and fixes: ModernFix, Neruina, Crash Assistant, Sawmill.
+- Content: Born in Chaos, Golem Overhaul, Horseman, Mowzie's Cataclysm, Better Combat Particle, Structure Essentials, TACT, InControl, Simple RPC.
+- Client visuals: Colorwheel, Subtle Effects, Euphoria Patches, FancyMenu 3.9, Drippy Loading Screen.
 
-Notes
+Important notes
+- Farmer's Delight baskets and Dungeon's Delight ominous omelettes no longer exist in the new versions: they disappear from existing worlds.
+- JourneyMap 6 is a major update: check your map settings after updating.
+- Back up your world before updating an existing server.
+
+Held back on purpose
 - ItemPhysic stays on 1.8.12: the Otherworld core mod patches it and breaks on newer versions.
+- T.O Magic 'n Extras stays on 6.3.0 (required by the Otherworld core mod), and so do Alshanex's Familiars and Armory of Remnants, which need a newer Iron's Spells than the pack's locked version.
+- Hardcore Revival, Moonlight Lib, AzureLib, Entity Model Features, Entity Texture Features and the world generation mods are kept for a later version.
 - Embeddium is not needed: Xenon already provides it.

@@ -1,3 +1,16 @@
 Otherworld Reborn 1.0.0
-- First release of the community-maintained fork of Otherworld (originally by MuonR / Luna Pixel Studios).
-- Removed the Luna world-sharing mod.
+First release of the community-maintained fork of Otherworld (originally by MuonR / Luna Pixel Studios), maintained by MrSuricate. Minecraft 1.20.1, Forge 47.4.20.
+
+Removed
+- Luna world-sharing mod (not needed for this fork).
+- Distraction Free Recipes (client-side only, incompatible with JEI 15.74).
+
+Updated (31 mods)
+- Libraries and tools: CorgiLib, CraterLib, CreativeCore, Kiwi, Fzzy Config, GeckoLib, FTB Library, FTB Quests, Polymorph, Jade, Jade Addons, Waystones, KleeSlabs, Connectivity.
+- Performance and fixes: ModernFix, Neruina, Crash Assistant, Sawmill.
+- Content: Born in Chaos, Golem Overhaul, Horseman, Mowzie's Cataclysm, Ender's Delight, Better Combat Particle, Tweaks addon for MineColonies, JadeColonies, TACT, InControl, Structure Essentials, Simple RPC.
+- JEI 15.20 -> 15.74 (required by Polymorph 0.49.11), with the new MezzConfig dependency.
+
+Notes
+- ItemPhysic stays on 1.8.12: the Otherworld core mod patches it and breaks on newer versions.
+- Embeddium is not needed: Xenon already provides it.

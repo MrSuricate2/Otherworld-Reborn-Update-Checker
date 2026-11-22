@@ -1,0 +1,8 @@
+Otherworld Reborn 1.0.2
+Bug-fix release. Minecraft 1.20.1, Forge 47.4.29.
+
+Fixed
+- Black text and black items on a fresh install of 1.0.1: the default resource pack list still pointed to the old pack files (Pinnacle 2.8.0, Suren Sophisticated Storage v2.0.0, Better-Leaves 9.5, Enchantment Descriptions Compat 1.3, Waystones update 5). Since those files no longer exist, the game enabled the new packs in a wrong order. The default list now matches the packs shipped with the modpack.
+
+Important notes
+- If you already updated to 1.0.1 and have black text or items, open Options > Resource Packs and disable the packs that are not in the default list (Pinnacle 3.0.0.5, Suren Sophisticated Storage v3.0, Better-Leaves 9.6, Enchantment Descriptions Compat 1.4, The-RCP, Traduction-FR, fresh_waystones), or delete your options.txt (your keybinds and settings will be reset).

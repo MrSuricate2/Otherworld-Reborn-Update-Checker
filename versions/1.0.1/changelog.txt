@@ -1,0 +1,24 @@
+Otherworld Reborn 1.0.1
+Bug-fix release. Minecraft 1.20.1, Forge 47.4.29.
+
+Fixed
+- Create trains are displayed on JourneyMap again: JourneyMap 6 disabled Create's built-in train map and showed a "missing mod" message. Added Create Repair 1.3.0 to restore it.
+
+Added
+- Create Repair 1.3.0 (Create community patch, restores the train map on JourneyMap 6).
+
+Removed
+- Pack Analytics (not needed for this fork).
+
+Updated
+- Forge 47.4.20 -> 47.4.29.
+- JourneyMap 6.0.7 -> 6.0.8.
+- Oh The Biomes We've Gone 1.7.5 -> 1.8.2 and Oh The Trees You'll Grow 1.6.0 -> 1.7.4.
+- Serene Seasons 9.1.0.2 -> 9.1.0.3.
+- BiomeMusic 3.5 -> 4.1.
+- All The Leaks 1.1.1 -> 1.1.6.
+- CrashExploitFixer 1.1.0 -> 2.0.0.
+
+Important notes
+- The world generation mods (Oh The Biomes We've Gone, Oh The Trees You'll Grow) changed: newly generated chunks may look different from existing terrain.
+- Back up your world before updating an existing server.

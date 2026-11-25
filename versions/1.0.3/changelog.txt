@@ -1,0 +1,18 @@
+Otherworld Reborn 1.0.3
+Bug-fix release. Minecraft 1.20.1, Forge 47.4.29.
+
+Fixed
+- Crash on startup ("Default font failed to load", then "LocalPlayer is null"): the built-in Otherworld Assets pack declared the Traveler's Titles dimension fonts, but their textures only exist in the Visual Titles resource pack, which is not loaded yet during the first resource reload. The duplicate font definition was removed from Otherworld Assets; the dimension titles still come from Visual Titles.
+- The default resource pack list now matches the packs shipped with the modpack (see "Updated" below).
+
+Added
+- Studious Keybinds 1.0.10-beta.1 (keyboard handling).
+
+Removed
+- The 1.9.6 FA Illager Mod Compats and Fresh Patch - Jaden's Nether Expansion resource packs (no longer shipped).
+
+Updated
+- Resource packs: Pinnacle 2.8.0 -> 3.0.0.5, Suren Sophisticated Storage v2.0.0 -> v3.0, Better-Leaves 9.5 -> 9.6, Enchantment Descriptions Compat 1.3 -> 1.4, The Rename Compat Project -> The-RCP, Waystones update 5 -> Fresh Waystones.
+
+Important notes
+- If you already have the previous resource packs enabled, open Options > Resource Packs and check that the new versions are enabled and the old ones are gone, or delete your options.txt (your keybinds and settings will be reset).
